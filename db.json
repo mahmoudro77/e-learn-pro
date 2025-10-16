@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "email": "admin@elearn.com",
+      "password": "admin123",
+      "role": "admin",
+      "enrolledCourses": [],
+      "completedLessons": []
+    },
+    {
+      "id": "2",
+      "username": "student1",
+      "email": "student@test.com",
+      "password": "123456",
+      "role": "student",
+      "enrolledCourses": [
+        1,
+        2
+      ],
+      "completedLessons": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "id": "ffb3",
+      "username": "mahmoud",
+      "email": "mahmoud@gmail.com",
+      "password": "12344321",
+      "role": "student",
+      "enrolledCourses": [
+        1
+      ],
+      "completedLessons": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "title": "React for Beginners",
+      "description": "Learn React from scratch with modern practices and build real-world applications",
+      "category": "Frontend",
+      "difficulty": "Beginner",
+      "duration": "12 hours",
+      "students": 1500,
+      "rating": 4.8,
+      "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400",
+      "instructor": "John Doe",
+      "price": 49.99,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Introduction to React",
+          "duration": "25:00",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Learn the basics of React and its core concepts",
+          "completed": true
+        },
+        {
+          "id": 2,
+          "title": "JSX and Components",
+          "duration": "35:00",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Understanding JSX syntax and component structure",
+          "completed": true
+        },
+        {
+          "id": 3,
+          "title": "Props and State",
+          "duration": "40:00",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Managing data with props and state",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Advanced JavaScript",
+      "description": "Master advanced JavaScript concepts and modern ES6+ features",
+      "category": "Programming",
+      "difficulty": "Advanced",
+      "duration": "18 hours",
+      "students": 890,
+      "rating": 4.9,
+      "thumbnail": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=400",
+      "instructor": "Jane Smith",
+      "price": 79.99,
+      "lessons": [
+        {
+          "id": 4,
+          "title": "ES6+ Features",
+          "duration": "45:00",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Modern JavaScript features and syntax",
+          "completed": false
+        },
+        {
+          "id": 5,
+          "title": "Async/Await",
+          "duration": "30:00",
+          "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "Asynchronous programming patterns",
+          "completed": true
+        }
+      ]
+    }
+  ]
+}
