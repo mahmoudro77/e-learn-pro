@@ -5,16 +5,16 @@ import { motion } from 'framer-motion';
 const About = () => {
   const teamMembers = [
     {
+      name: "Mahmoud Roqmane",
+      role: "Programer",
+      image: "../../public/mahmoud.jpg",
+      bio: "Frontend Developer (ReactJs) , Third Year ITE in Homs University."
+    },
+    {
       name: "John Doe",
       role: "Founder & CEO",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
       bio: "Former Google engineer with 10+ years of experience in education technology."
-    },
-    {
-      name: "Jane Smith",
-      role: "Head of Education",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face",
-      bio: "PhD in Computer Science and passionate about making quality education accessible."
     },
     {
       name: "Mike Johnson",
